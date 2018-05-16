@@ -1,0 +1,182 @@
+﻿<repository
+id="9142811b-f2ea-4a80-96ea-1ee5036c00f7"
+name="LightsRepository"
+rxversion="7.0">
+	<codegen
+	classname="LightsRepository"
+	namespace="Lights">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="fc513022-b9f9-4d50-9aa6-3fdd280ba705"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="0ed5aa1f-39e2-4914-b745-1dcaa5ada8e5"
+		isrooted="True"
+		name="SnapXUntitled"
+		refpath="/form[@title='Snap-X - [Untitled]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="8591fe95-4019-4344-bec3-21eb3ae60d5b"
+			name="TitleBar"
+			refimgid="6e216ca1-43e8-40b2-a5e5-7e95c0f0e8cc"
+			refpath="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="005e546b-60d9-46c2-88c9-255acfd176dc"
+			name="SwitchToSensor"
+			refimgid="4b7e58c0-02d6-46a8-9746-99d84cb83b43"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="67b57a42-ac80-42f3-9ba3-79d82d5a7226"
+			name="SwitchToFFW"
+			refimgid="5683a441-9853-480a-bee0-db2fe6755a04"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//toolbar[@class='ToolbarWindow32' and @instance='7']/button[@commandid='40028']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="c6261fd7-8791-47c1-a487-71fb5738ae9a"
+			name="RingLightFFW"
+			refimgid="586fbb0f-02b8-4208-bc5d-0559e57faac3"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1015']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="e6b91e62-40e4-4547-86b2-2884a48f4bf8"
+			name="SurfaceLightFFW"
+			refimgid="311adb68-5bb5-4cc6-9ecc-42126da7bb72"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1018']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="8c0ef745-275c-4662-b3c7-8b4bde7f908c"
+			name="BackLightFFW"
+			refimgid="447ccce2-be6a-49fb-b5a8-cfd4edc35c4d"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1017']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="d6c76fa7-4c91-4372-88f5-a080a74e6469"
+			name="RingLightBig"
+			refimgid="62f6ed5b-35d9-4a8d-922c-e160bff539bd"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1015']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="4198b067-1735-47ea-b45b-e504ce63c6e5"
+			name="SurfaceLightBig"
+			refimgid="e5aef9e4-e6c5-46cb-93cd-d7b0e35af09e"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1018']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="20e380b2-bda1-4f87-ba2a-7d65c67cbbb5"
+			name="BackLightBig"
+			refimgid="00d48431-60ef-4260-8060-abcca52d7cfa"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1017']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="3d8c6d69-e681-4c00-8150-c30cfc259dbd"
+			name="BoostFFW"
+			refimgid="556a76b0-61dc-4175-b1a3-c855fffc1f67"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1012']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="5b661791-623e-491f-8156-3e217f720489"
+			name="BoostBig"
+			refimgid="6a2d921e-f882-4385-a60c-4f39facc40e3"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='1012']
+			</item>
+			<item
+			addcaps="slider,nativewindow"
+			capname="slider"
+			id="8996d4d5-94c9-482b-a624-f71d0387a8f1"
+			name="SliderBackLight"
+			refimgid="8721696d-0a15-484c-8d97-963f7e315ca6"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//slider[@controlid='4117']
+			</item>
+			<item
+			addcaps="slider,nativewindow"
+			capname="slider"
+			id="f7fc55c6-a3f7-48b6-a5b7-78e1097d7fbb"
+			name="SliderSurface"
+			refimgid="9153b66c-a974-4681-9833-4522538e4c0f"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//slider[@controlid='4112']
+			</item>
+			<item
+			addcaps="slider,nativewindow"
+			capname="slider"
+			id="802466e2-6818-450c-aaa0-1ead9abbc682"
+			name="SliderSRL"
+			refimgid="2c9c5394-0299-4a14-9ee2-f100df01906a"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//slider[@controlid='4115']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="a1e0e14d-3f52-40f8-88a9-afb2dafe071f"
+			name="TextMeasure"
+			refimgid="881d748a-5bfd-4062-aae5-22f8ddb65e10"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

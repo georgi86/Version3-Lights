@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f88e4671fccb640"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="EVMX"
+		host="SNAPDM200"
+		rxversion="7.0.1.0"
+		osversion="Windows 7 Service Pack 1 32bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/4/2018 13:40:21"
+		timestampiso="2018-05-04T10:40:21"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Attribute 'WindowText' of element for item 'LightsRepository.SnapXUntitled.BackLightFieldBigMode' does not match the specified value (actual='+75.2469       ', expected='60').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.070"
+			timeRelativeToTestModuleStartTime="00:00.070"
+			timeWallClock="13:40:21"
+			time="00:00.070"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.TitleBar' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/element[@controlid='94']"
+				fullname="LightsRepository.SnapXUntitled.TitleBar"
+				id="8591fe9540194344bec321eb3ae60d5b"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.930"
+			timeRelativeToTestModuleStartTime="00:00.930"
+			timeWallClock="13:40:22"
+			time="00:00.930"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'SnapXUntitled.BackLightFieldBigMode' at 13;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightFieldBigMode"
+				id="20e380b2bda14f87ba2a7d65c67cbbb5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.714"
+			timeRelativeToTestModuleStartTime="00:04.714"
+			timeWallClock="13:40:26"
+			time="00:04.714"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '70'.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.020"
+			timeRelativeToTestModuleStartTime="00:05.020"
+			timeWallClock="13:40:26"
+			time="00:05.020"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="94"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.223"
+			timeRelativeToTestModuleStartTime="00:05.223"
+			timeWallClock="13:40:26"
+			time="00:05.223"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeEqual (WindowText='70') on item 'SnapXUntitled.BackLightFieldBigMode'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightFieldBigMode"
+				id="20e380b2bda14f87ba2a7d65c67cbbb5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.616"
+			timeRelativeToTestModuleStartTime="00:07.616"
+			timeWallClock="13:40:29"
+			time="00:07.616"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'WindowText' of element for item 'LightsRepository.SnapXUntitled.BackLightFieldBigMode' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightFieldBigMode"
+				id="20e380b2bda14f87ba2a7d65c67cbbb5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="100"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.718"
+			timeRelativeToTestModuleStartTime="00:07.718"
+			timeWallClock="13:40:29"
+			time="00:07.718"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SnapXUntitled.SwitchToFFW' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//toolbar[@class='ToolbarWindow32' and @instance='7']/button[@commandid='40028']"
+				fullname="LightsRepository.SnapXUntitled.SwitchToFFW"
+				id="67b57a42ac8042f39ba379d82d5a7226"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.837"
+			timeRelativeToTestModuleStartTime="00:10.837"
+			timeWallClock="13:40:32"
+			time="00:10.837"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (WindowText='70') on item 'SnapXUntitled.BackLightField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightField"
+				id="8c0ef745275c4662b3c78b4bde7f908c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.892"
+			timeRelativeToTestModuleStartTime="00:13.892"
+			timeWallClock="13:40:35"
+			time="00:13.892"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'WindowText' of element for item 'LightsRepository.SnapXUntitled.BackLightField' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightField"
+				id="8c0ef745275c4662b3c78b4bde7f908c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="109"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.997"
+			timeRelativeToTestModuleStartTime="00:13.997"
+			timeWallClock="13:40:35"
+			time="00:13.997"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'SnapXUntitled.BackLightField' at 10;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightField"
+				id="8c0ef745275c4662b3c78b4bde7f908c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.386"
+			timeRelativeToTestModuleStartTime="00:17.386"
+			timeWallClock="13:40:38"
+			time="00:17.386"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '60'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.694"
+			timeRelativeToTestModuleStartTime="00:17.694"
+			timeWallClock="13:40:39"
+			time="00:17.694"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.901"
+			timeRelativeToTestModuleStartTime="00:17.901"
+			timeWallClock="13:40:39"
+			time="00:17.901"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (WindowText='60') on item 'SnapXUntitled.BackLightField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightField"
+				id="8c0ef745275c4662b3c78b4bde7f908c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="124"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.922"
+			timeRelativeToTestModuleStartTime="00:20.922"
+			timeWallClock="13:40:42"
+			time="00:20.922"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'WindowText' of element for item 'LightsRepository.SnapXUntitled.BackLightField' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightField"
+				id="8c0ef745275c4662b3c78b4bde7f908c"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="125"
+				loglvl="Success"
+				itemindex="10">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.029"
+			timeRelativeToTestModuleStartTime="00:21.029"
+			timeWallClock="13:40:42"
+			time="00:21.029"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_25325f02_db14f53c_trace.jpg"
+			errthumb=".\Recordin_25325f02_db14f53c_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (WindowText='60') on item 'SnapXUntitled.BackLightFieldBigMode'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightFieldBigMode"
+				id="20e380b2bda14f87ba2a7d65c67cbbb5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.869"
+			timeRelativeToTestModuleStartTime="00:23.869"
+			timeWallClock="13:40:45"
+			time="00:23.869"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_25325f02_52ab32ea_trace.jpg"
+			errthumb=".\Recordin_25325f02_52ab32ea_trace_thumb.jpg">
+			<message>
+				Attribute 'WindowText' of element for item 'LightsRepository.SnapXUntitled.BackLightFieldBigMode' does not match the specified value (actual='+75.2469       ', expected='60').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightFieldBigMode"
+				id="20e380b2bda14f87ba2a7d65c67cbbb5"
+				timeout="60000"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="129"
+				loglvl="Failure"
+				itemindex="11">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.872"
+			timeRelativeToTestModuleStartTime="00:23.872"
+			timeWallClock="13:40:45"
+			time="00:23.872"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_25325f02_52ab32ea_trace.jpg"
+			errthumb=".\Recordin_25325f02_52ab32ea_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'WindowText' of element for item 'LightsRepository.SnapXUntitled.BackLightFieldBigMode' does not match the specified value (actual='+75.2469       ', expected='60').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at Lights.Recording1.Ranorex.Core.Testing.ITestModule.Run() in d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs:line 129
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Boolean skipIteration)"
+				codefile="d:\Joro\GIT_Automations\VERSION 3\AutomationLights\Lights\Lights\Recording1.cs"
+				codeline="129"
+				type="repoitem"
+				path="/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form//text[@controlid='1017']"
+				fullname="LightsRepository.SnapXUntitled.BackLightFieldBigMode"
+				id="20e380b2bda14f87ba2a7d65c67cbbb5"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="11">
+			</metainfo>
+		</item>
+	</activity>
+</report>

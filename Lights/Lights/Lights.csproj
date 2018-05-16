@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{B04BDC4A-37A2-4212-84B2-5F68F6438BBF}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Lights</RootNamespace>
+    <AssemblyName>Lights</AssemblyName>
+    <RanorexVersion>7.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>cb6a468d-3418-4f7a-b9d6-00dfa373da7b</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>694c15bc-f27b-42be-8141-910b5a16c70f</id>
+    </Compile>
+    <Compile Include="LightsRepository.cs">
+      <BoundTo>cb6a468d-3418-4f7a-b9d6-00dfa373da7b</BoundTo>
+      <DependentUpon>LightsRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>4a4f01b0-f0e1-4e52-b2c9-dcb0d8ba14b7</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>20140fec-9e47-443c-8efa-5b8f4f0a5ee6</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>fd7b4d37-4261-44a6-bd71-cecabd60fc5a</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4242ec46-8b67-4242-8bc5-555c83b7f347</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>fd7b4d37-4261-44a6-bd71-cecabd60fc5a</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e1806e4f-e7b4-42b5-8496-e72dd08eeb6a</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>e8897ddf-451e-4840-8a1e-925e92a9e7a2</id>
+    </None>
+    <None Include="LightsRepository.rximg">
+      <BoundTo>cb6a468d-3418-4f7a-b9d6-00dfa373da7b</BoundTo>
+      <DependentUpon>LightsRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>79b9e9f6-0c26-4e4c-ac4b-e39e1196500c</id>
+    </None>
+    <None Include="LightsRepository.rxrep">
+      <id>cb6a468d-3418-4f7a-b9d6-00dfa373da7b</id>
+      <repoid>9142811b-f2ea-4a80-96ea-1ee5036c00f7</repoid>
+      <reporootid>fc513022-b9f9-4d50-9aa6-3fdd280ba705</reporootid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>cb6a468d-3418-4f7a-b9d6-00dfa373da7b</BoundTo>
+      <id>fd7b4d37-4261-44a6-bd71-cecabd60fc5a</id>
+      <recordtableid>7261d289-f73d-4bca-be23-7002babd5aa9</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lights.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>d68b3b28-3791-443c-8268-8ba833f919ba</id>
+    </Content>
+    <Content Include="Lights.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>33e1a15f-4734-40b5-93a0-c878c762b2bc</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
