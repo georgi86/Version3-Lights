@@ -135,7 +135,7 @@ namespace Lights
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXUntitled.SwitchToFFW' at Center.", repo.SnapXUntitled.SwitchToFFWInfo, new RecordItemIndex(6));
             repo.SnapXUntitled.SwitchToFFW.Click();
-            Delay.Milliseconds(0);
+            Delay.Milliseconds(20000);
 
             try
             {
@@ -499,6 +499,9 @@ namespace Lights
             {
                 Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(62));
             }
+
+            repo.SnapXUntitled.SwitchToSensor.Click();
+            Delay.Milliseconds(200);
         }
 
 #region Image Feature Data
