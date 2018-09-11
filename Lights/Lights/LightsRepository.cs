@@ -105,11 +105,11 @@ namespace Lights
             /// Creates a new SnapXUntitled  folder.
             /// </summary>
             public SnapXUntitledAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("SnapXUntitled", "/form[@title='Snap-X - [Untitled]']", parentFolder, 30000, null, true, "0ed5aa1f-39e2-4914-b745-1dcaa5ada8e5", "")
+                    base("SNAPXUntitled", "/form[@title='SNAP-X - [Untitled]']", parentFolder, 30000, null, true, "0ed5aa1f-39e2-4914-b745-1dcaa5ada8e5", "")
             {
                 _titlebarInfo = new RepoItemInfo(this, "TitleBar", "element[@controlid='94']", 30000, null, "8591fe95-4019-4344-bec3-21eb3ae60d5b");
                 _switchtosensorInfo = new RepoItemInfo(this, "SwitchToSensor", "container[@controlid='59648']/form/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']", 30000, null, "005e546b-60d9-46c2-88c9-255acfd176dc");
-                _switchtoffwInfo = new RepoItemInfo(this, "SwitchToFFW", "container[@controlid='59648']/form//toolbar[@class='ToolbarWindow32' and @instance='7']/button[@commandid='40028']", 30000, null, "67b57a42-ac80-42f3-9ba3-79d82d5a7226");
+                _switchtoffwInfo = new RepoItemInfo(this, "SwitchToFFW", "container[@controlid='59648']/form//toolbar[@class='ToolbarWindow32' and @instance='6']/button[@commandid='40028']", 30000, null, "67b57a42-ac80-42f3-9ba3-79d82d5a7226");
                 _ringlightffwInfo = new RepoItemInfo(this, "RingLightFFW", "container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1015']", 30000, null, "c6261fd7-8791-47c1-a487-71fb5738ae9a");
                 _surfacelightffwInfo = new RepoItemInfo(this, "SurfaceLightFFW", "container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1018']", 30000, null, "e6b91e62-40e4-4547-86b2-2884a48f4bf8");
                 _backlightffwInfo = new RepoItemInfo(this, "BackLightFFW", "container[@controlid='59648']/form//element[@controlid='59648']/container[@class='#32770']/text[@controlid='1017']", 30000, null, "8c0ef745-275c-4662-b3c7-8b4bde7f908c");
